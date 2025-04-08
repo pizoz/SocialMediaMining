@@ -1,0 +1,15 @@
+/.venv
+*.txt
+*.json
+*.gexf
+*.gephi
+*.pdf
+*.png
+*.db
+*.gml
+*.db-wal
+*.html
+*.db-shm
+*.arenas-jazz
+*.session
+*.graphml
