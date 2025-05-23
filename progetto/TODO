@@ -40,6 +40,10 @@ Primi 2 Grafi: Grafo_Canali e Grafo Communities
     Tutti i video appartenenti a Romeo, Colpo Gobbo, Luca Toselli e Kinoshi hanno modularity class separate
     I video de Il Bianconero (49) appartengono:  32 modularità di Romeo, 9 modularità di Colpo Gobbo, 4 modularità di Luca Toselli e 4 modularità di Kinoshi
 
+    Guarda similarità tra nodi di ilbianconero e romeo
+
+
+
 Grafo utenti
     Il grafo utenti ha come nodi gli utenti che hanno commentato i 50 video nel periodo e due nodi sono collegati da un link se hanno video co commentati. Community detection poi Force Atlas 2 e Force Atlas. Vengono divise le community dei 5 canali tramite algoritmo di Gephi
     file: cocomentatori_utenti_piu_grande

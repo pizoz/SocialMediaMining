@@ -1,7 +1,6 @@
 /.venv
 *.txt
 *.json
-*.gexf
 *.gephi
 *.pdf
 *.png
@@ -14,3 +13,4 @@
 *.session
 *.graphml
 *.csv
+*.gexf
