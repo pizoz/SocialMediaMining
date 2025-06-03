@@ -39,11 +39,112 @@ Primi 2 Grafi: Grafo_Canali e Grafo Communities
     Il secondo con nodi colorati in base alla modularity class
     Tutti i video appartenenti a Romeo, Colpo Gobbo, Luca Toselli e Kinoshi hanno modularity class separate
     I video de Il Bianconero (49) appartengono:  32 modularità di Romeo, 9 modularità di Colpo Gobbo, 4 modularità di Luca Toselli e 4 modularità di Kinoshi
+    Top Video per eigenvector e pageRank
 
-    Guarda similarità tra nodi di ilbianconero e romeo
-
-
+Top 20 by PageRank Centrality:
+    Video: uVnjhOISiUU, Centrality: 0.0017, Channel: Romeo Agresti, Date: 2025-01-25
+    SONO FURIBONDO || NAPOLI-JUVE 2-1
+    Video: s62NhvzjClI, Centrality: 0.0016, Channel: Romeo Agresti, Date: 2025-01-26
+    NON MI PASSA 🌪
+    Video: M2YbIa0b_QA, Centrality: 0.0015, Channel: Colpo Gobbo, Date: 2025-01-25
+    SQUADRA e ALLENATORE senza PALLE! || NAPOLI JUVENTUS 2-1
+    Video: mz7RNiikSYc, Centrality: 0.0014, Channel: Luca Toselli, Date: 2024-09-04
+    LA MIA INTERVISTA ESCLUSIVA A WOJCIECH SZCZĘSNY ⚪️⚫️(DALL'EREDITÀ DI BUFFON ALL'ADDIO ALLA JUVENTUS)
+    Video: InT6C4DAC2I, Centrality: 0.0014, Channel: Luca Toselli, Date: 2025-01-03
+    LA JUVENTUS DOVREBBE ESONERARE THIAGO MOTTA?
+    Video: K0LK97c9FWU, Centrality: 0.0013, Channel: Luca Toselli, Date: 2025-01-03
+    JUVENTUS MILAN 1-2 | ELIMINATI GIUSTAMENTE, THIAGO MOTTA PEGGIORA INVECE CHE MIGLIORARE
+    Video: Zcz91vTGFsE, Centrality: 0.0013, Channel: Romeo Agresti, Date: 2025-01-03
+    VADO AI MATTI | JUVE-MILAN 1-2
+    Video: 93ENIXUKytc, Centrality: 0.0013, Channel: Colpo Gobbo, Date: 2025-01-03
+    SQUADRA FOLLE e CAMBI INDECENTI || JUVENTUS MILAN 1-2
+    Video: mkmg3JyATzE, Centrality: 0.0013, Channel: Colpo Gobbo, Date: 2025-03-16
+    ESONERATELO ORA || FIORENTINA JUVENTUS 3-0
+    Video: h9gnJkf4lbc, Centrality: 0.0013, Channel: Colpo Gobbo, Date: 2025-01-26
+    INACCETTABILE! CARO MOTTA...
+    Video: 9KZ3YDw-DYA, Centrality: 0.0013, Channel: Romeo Agresti, Date: 2024-08-09
+    FOTOGRAFIA DIETRO L’ANGOLO 📸
+    Video: teecLqmCDxM, Centrality: 0.0013, Channel: Colpo Gobbo, Date: 2025-03-23
+    ❌ MOTTA ESONERATO ✅ TUDOR nuovo MISTER ⛔ ADESSO sono FINITI gli ALIBI
+    Video: rJ5MVsZexso, Centrality: 0.0013, Channel: Colpo Gobbo, Date: 2024-12-29
+    UN PUGNO SULLO STOMACO || JUVENTUS FIORENTINA 2-2
+    Video: _gEpVGhkrHw, Centrality: 0.0012, Channel: Romeo Agresti, Date: 2025-01-11
+    UNA SCONFITTA || TORO-JUVE 1-1
+    Video: nehlOW3td8Q, Centrality: 0.0012, Channel: Colpo Gobbo, Date: 2024-12-01
+    SIAMO da PSIC0ANALISI  || LECCE JUVENTUS 1-1
+    Video: 0nMK5d44Y4s, Centrality: 0.0012, Channel: Romeo Agresti, Date: 2025-02-26
+    DISASTRO EPOCALE ❌🏆 || JUVENTUS EMPOLI 5-3 dcr
+    Video: YjurMGFwg4A, Centrality: 0.0012, Channel: Colpo Gobbo, Date: 2025-03-03
+    🚫 Questa CONTESTAZIONE NON mi è PIACIUTA per NIENTE!
+    Video: W0NjzaMqV9A, Centrality: 0.0012, Channel: Romeo Agresti, Date: 2024-12-29
+    DEVASTANTE | JUVE-FIORENTINA 2-2
+    Video: _ha4xV7e-Us, Centrality: 0.0012, Channel: Colpo Gobbo, Date: 2025-01-30
+    MOTTA, DIRIGENTI e CALCIATORI... Ecco cosa sta SUCCEDENDO.
+    Video: zLsLmk5wm3I, Centrality: 0.0012, Channel: Colpo Gobbo, Date: 2024-11-17
+    COSA CAVOLO DICI DUSAN?
 
 Grafo utenti
     Il grafo utenti ha come nodi gli utenti che hanno commentato i 50 video nel periodo e due nodi sono collegati da un link se hanno video co commentati. Community detection poi Force Atlas 2 e Force Atlas. Vengono divise le community dei 5 canali tramite algoritmo di Gephi
     file: cocomentatori_utenti_piu_grande
+
+Guarda similarità tra nodi delle
+
+Per entrambi i Grafi (Video Co-Commentati e Commentatori):
+
+Community Detection (Rilevamento di Comunità):
+
+Perché è fondamentale per te: Questa metrica è cruciale perché ti permette di identificare gruppi di video che trattano argomenti correlati (es. tutti i video che parlano specificamente delle tattiche di Motta, o delle decisioni della dirigenza, o delle prestazioni di certi giocatori sotto Motta) e, soprattutto, gruppi di commentatori che interagiscono o la pensano in modo simile.
+Insight per il tuo progetto: Potresti scoprire "fazioni" di tifosi (es. i "pro-Motta residui" vs i "Motta-out convinti", i critici della dirigenza, i difensori di certi giocatori). Analizzare poi il sentiment all'interno di queste comunità è potentissimo. Ad esempio, una comunità di utenti molto coesa potrebbe esprimere un sentiment uniformemente negativo verso la dirigenza, mentre un'altra potrebbe essere più divisa riguardo le colpe di Motta rispetto a quelle dei giocatori.
+Misure di Centralità come Degree Centrality e PageRank/Eigenvector Centrality:
+
+Perché sono fondamentali per te: Ti aiutano a identificare i "protagonisti" della discussione.
+Nel grafo dei video: i video più "caldi", quelli che aggregano più discussioni o che sono considerati più importanti/di riferimento dalla community quando si parla del periodo di Motta.
+Nel grafo dei commentatori: gli utenti più influenti o più attivi nel plasmare la narrativa attorno al "fallimento", quelli che commentano di più o i cui commenti sono più "centrali" nelle discussioni.
+Insight per il tuo progetto: Puoi vedere se i video più centrali sono quelli con il sentiment più negativo. Puoi identificare i commentatori "leader d'opinione" e analizzare specificamente il loro sentiment e i loro argomenti contro Motta, i giocatori o la società. Sono pochi utenti molto negativi a dominare la conversazione, o è un sentimento diffuso?
+Specificamente per il Grafo sui Commentatori:
+
+Betweenness Centrality (per i commentatori):
+Perché è utile per te: Identifica gli utenti che fanno da "ponte" tra diverse comunità di commentatori o diverse aree di discussione.
+Insight per il tuo progetto: Questi utenti potrebbero essere cruciali nel diffondere certe narrazioni (es. la colpa è principalmente di Motta E della dirigenza) tra gruppi che altrimenti non comunicherebbero direttamente. Comprendere il loro ruolo e il loro sentiment può essere molto rivelatore.
+La Vera Forza: Correlazione con il Sentiment Analysis
+
+Più che una singola metrica, la cosa decisiva sarà come correlerai queste caratteristiche strutturali dei grafi con i risultati della tua sentiment analysis. Ad esempio:
+
+Le comunità di utenti identificate hanno un sentiment medio significativamente diverso riguardo a Motta? E riguardo alla dirigenza?
+I commentatori con più alta centralità (Degree, PageRank) sono anche quelli con il sentiment più marcatamente negativo/sarcastico?
+I video più centrali nel dibattito sul "fallimento di Motta" sono associati a picchi di commenti negativi?
+In sintesi, ti consiglierei di concentrarti su:
+
+Community Detection: Per segmentare la discussione e i partecipanti.
+Degree/PageRank Centrality: Per identificare i nodi (video o utenti) focali.
+Analisi incrociata con il Sentiment: Per dare un significato profondo alle strutture di rete che scopri.
+
+
+
+
+
+
+
+Progetto finale:
+
+Introduzione
+Data Gathering
+Emotion Analysis
+    Grafo dei video:
+        N = video dei canali se hanno almeno 2 commentatori in comune con un altro
+        L = per ogni N_i e N_j (N_i, N_j) = 1 se hanno almeno 2 commentatori comuni 
+        Algoritmo di Louvain sui video:
+            spiegazione divisione in community e sovrapposizione video Romeo e ilBianconero
+    Grafo degli utenti:
+        N = commentatori
+        L = per ogni coppia esiste il link se hanno cocomentanto almeno un video
+
+Classificazione Rosa Juve in base alle emozioni nei commenti
+    TOP 5: Gioia, Tristezza, Rabbia, Sorpresa, Paura
+    Conversione in Sentiment positive = Gioia, neutral = Sorpresa, negative = Tristezza, Rabbia, Paura
+    Media della squadra e per ogni giocatore se sopra o sotto
+    Valore allenatore se sopra o sotto la media della squadra
+    
+Domande di ricerca:
+    
+    
