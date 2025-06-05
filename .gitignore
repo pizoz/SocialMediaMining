@@ -14,5 +14,5 @@
 *.graphml
 *.csv
 *.gexf
-*.pptx
+.pptx
 *.jpg
